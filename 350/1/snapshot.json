@@ -1,0 +1,75 @@
+{
+	"version": "0.4.2-stable",
+	"parameters": {
+		"period": 350,
+		"block_begin": 3904416,
+		"block_end": 5716359
+	},
+	"accounts": {
+		"valid": 163228,
+		"registered": 129290,
+		"registered_included_percent": "79.2082240792021%",
+		"fallback": 33939,
+		"fallback_included_percent": "20.79238856078614%"
+	},
+	"supply": {
+		"total": 1000000000.1505,
+		"expected": 1000000000,
+		"included": 996009710.4835,
+		"percent_included": "99%",
+		"liquid": 1000000000.1518,
+		"margin_of_error": "-0.0000000151800000%"
+	},
+	"meta": {
+		"author": "ken@eosphere.io",
+		"timestamp_started": 1527915208,
+		"timestamp_completed": 1527915516,
+		"total_time": "5m 8s"
+	},
+	"checksum": {
+		"output": {
+			"snapshot": "f1dad1b4fa3de43cb67bd1ad64cc823d049caef7",
+			"snapshot_unregistered": "5bc1ee4de2a94236f2e0950449355635a5c5da1b",
+			"distribution": "c7a6ff3266a0d0c3075251f7587551635acbf81f"
+		},
+		"db": {
+			"wallets": "88b2bf4ad4cd3368f0e892c5e6b52a028d9c40ce",
+			"buys": "0bf90a6da5e0af9877b3fddac6376f584b14c783",
+			"claims": "dfbf8a577bc9b8a74c818d1edc5cc4e55bcd1653",
+			"registrations": "43a818859905e757a4423729fa0283c5f10a97d2",
+			"transfers": "c7761f31a1b0fc93ffa141914322ea79bdb463bc",
+			"snapshot": "da59ddde0ee5d1f938e54b401ec7c279c86c2da0",
+			"public_keys": "3574b0111c85da8a41f8882e32f1e1828a2967ed"
+		}
+	},
+	"stats": {
+		"contract": {
+			"buys": 0,
+			"claims": 0,
+			"reclaimables": 0,
+			"registrations": 0,
+			"transfers": 0
+		}
+	},
+	"config": {
+		"period": 350,
+		"author": "ken@eosphere.io",
+		"snapshot_minimum_balance": 1,
+		"overwrite_snapshot": true,
+		"recalculate_wallets": false,
+		"skip_web3_sync": false,
+		"load_config": true,
+		"poll": true,
+		"resume": true,
+		"verbose_mt": true
+	},
+	"block_range": {
+		"begin": 3904416,
+		"end": 5716359
+	},
+	"distribution_status": {
+		"crowdsale_over": true,
+		"tokens_frozen": 0
+	},
+	"public_keys": 26642383
+}
